@@ -1,16 +1,141 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Manila"
-        },
-        "geometry": {
-          "type": "Polygon",
-          "coordinates": [[[120.968, 14.591], [120.980, 14.591], [120.980, 14.605], [120.968, 14.605], [120.968, 14.591]]]
-        }
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Manila" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[120.968, 14.591], [120.980, 14.591], [120.980, 14.605], [120.968, 14.605], [120.968, 14.591]]]
       }
-    ]
-  }
-  
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Quezon City" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[121.03, 14.65], [121.06, 14.65], [121.06, 14.68], [121.03, 14.68], [121.03, 14.65]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Caloocan" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[120.99, 14.66], [121.00, 14.66], [121.00, 14.68], [120.99, 14.68], [120.99, 14.66]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Las Piñas" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[120.98, 14.43], [121.00, 14.43], [121.00, 14.45], [120.98, 14.45], [120.98, 14.43]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Makati" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[121.02, 14.55], [121.04, 14.55], [121.04, 14.57], [121.02, 14.57], [121.02, 14.55]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Malabon" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[120.95, 14.67], [120.97, 14.67], [120.97, 14.69], [120.95, 14.69], [120.95, 14.67]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Mandaluyong" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[121.03, 14.58], [121.05, 14.58], [121.05, 14.60], [121.03, 14.60], [121.03, 14.58]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Marikina" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[121.09, 14.63], [121.11, 14.63], [121.11, 14.65], [121.09, 14.65], [121.09, 14.63]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Muntinlupa" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[121.03, 14.38], [121.05, 14.38], [121.05, 14.40], [121.03, 14.40], [121.03, 14.38]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Navotas" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[120.94, 14.65], [120.96, 14.65], [120.96, 14.67], [120.94, 14.67], [120.94, 14.65]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Parañaque" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[121.00, 14.48], [121.02, 14.48], [121.02, 14.50], [121.00, 14.50], [121.00, 14.48]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Pasay" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[120.99, 14.53], [121.01, 14.53], [121.01, 14.55], [120.99, 14.55], [120.99, 14.53]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Pasig" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[121.07, 14.57], [121.09, 14.57], [121.09, 14.59], [121.07, 14.59], [121.07, 14.57]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "San Juan" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[121.02, 14.61], [121.04, 14.61], [121.04, 14.63], [121.02, 14.63], [121.02, 14.61]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Taguig" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[121.06, 14.52], [121.08, 14.52], [121.08, 14.54], [121.06, 14.54], [121.06, 14.52]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Valenzuela" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[120.96, 14.70], [120.98, 14.70], [120.98, 14.72], [120.96, 14.72], [120.96, 14.70]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Pateros" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[121.08, 14.54], [121.09, 14.54], [121.09, 14.55], [121.08, 14.55], [121.08, 14.54]]]
+      }
+    }
+  ]
+}
