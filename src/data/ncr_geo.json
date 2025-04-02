@@ -1,0 +1,16 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Manila"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[[120.968, 14.591], [120.980, 14.591], [120.980, 14.605], [120.968, 14.605], [120.968, 14.591]]]
+        }
+      }
+    ]
+  }
+  
