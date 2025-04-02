@@ -1,9 +1,8 @@
 // components/NcrMap.jsx
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { MapContainer, TileLayer, GeoJSON } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import { Dialog, DialogTitle, DialogContent, Tabs, Tab, Box, Typography } from "@mui/material";
-import ncrGeoJson from "../data/ncr_geo.json";
 
 const mockCityData = {
   "Manila": {
@@ -30,6 +29,14 @@ const NcrMap = () => {
   const [selectedCity, setSelectedCity] = useState(null);
   const [modalOpen, setModalOpen] = useState(false);
   const [tabIndex, setTabIndex] = useState(0);
+  const [geoData, setGeoData] = useState(null);
+
+  useEffect(() => {
+    fetch("/ncr_geo.json")
+      .then((res) => res.json())
+      .then((data) => setGeoData(data))
+      .catch((err) => console.error("Failed to load GeoJSON:", err));
+  }, []);
 
   const onEachFeature = (feature, layer) => {
     layer.on({
@@ -56,7 +63,7 @@ const NcrMap = () => {
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a>'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        <GeoJSON data={ncrGeoJson} onEachFeature={onEachFeature} />
+        {geoData && <GeoJSON data={geoData} onEachFeature={onEachFeature} />}
       </MapContainer>
 
       <Dialog open={modalOpen} onClose={() => setModalOpen(false)} maxWidth="md" fullWidth>
